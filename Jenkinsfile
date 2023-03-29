@@ -13,17 +13,21 @@ pipeline{
 				sh 'sudo systemctl status jenkins'
 			}
 		}
+
 		stage('3-Nellyblues-contribution'){
 			steps{
 				sh 'lscpu'
 				sh 'sudo systemctl status jenkins'
 			}
 		}
+
 		stage('4-Fancis-contribution'){
 			steps{
 				sh 'df -h'
 				sh 'sudo systemctl status jenkins'
 
+			}
+		}	
 
 			}
 		}	
