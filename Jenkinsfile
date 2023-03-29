@@ -4,7 +4,7 @@ pipeline{
 	stages{
 		stage('1-cloning'){
 			steps{
-				checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'git', url: 'https://github.com/Etech-team5-group6/team5-Analytic.git']])
+				checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'git-id', url: 'https://github.com/Etech-team5-group6/team5-Analytic.git']])
 			}
 		}
 		stage('2-saada1-contribution'){
