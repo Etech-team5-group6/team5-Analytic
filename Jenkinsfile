@@ -21,8 +21,16 @@ pipeline{
 			}
 		}
 
+		stage('4-Fancis-contribution'){
+			steps{
+				sh 'df -h'
+				sh 'sudo systemctl status jenkins'
+
+
 
 			}
 		}	
+
+
 	}
 }
