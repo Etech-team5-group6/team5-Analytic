@@ -13,6 +13,15 @@ pipeline{
 				sh 'sudo systemctl status jenkins'
 			}
 		}
+
+		stage('3-Nellyblues-contribution'){
+			steps{
+				sh 'lscpu'
+				sh 'sudo systemctl status jenkins'
+			}
+		}
+
+
 			}
 		}	
 	}
