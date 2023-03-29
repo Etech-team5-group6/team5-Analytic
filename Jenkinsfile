@@ -27,10 +27,14 @@ pipeline{
 				sh 'sudo systemctl status jenkins'
 
 
+			}
+		}	
 
 			}
 		}	
 
-
+			}
+		}	
+			
 	}
 }
