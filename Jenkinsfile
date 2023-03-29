@@ -26,6 +26,10 @@ pipeline{
 				sh 'df -h'
 				sh 'sudo systemctl status jenkins'
 
+
+			}
+		}	
+
 			}
 		}	
 
